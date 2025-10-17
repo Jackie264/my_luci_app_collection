@@ -1,0 +1,568 @@
+Package: chinadns-ng
+Version: 2025.08.09-r1
+Depends: libc
+Source: feeds/passwall_packages/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/zfl9/chinadns-ng
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 532480
+Filename: chinadns-ng_2025.08.09-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 270083
+SHA256sum: 1f1fdc989c47904a9c1618499133782b5f918a2e67c3433232bc54773c5f783c
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: geoview
+Version: 0.1.11-r1
+Depends: libc
+Source: feeds/passwall_packages/geoview
+SourceName: geoview
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/snowie2000/geoview
+Maintainer: snowie2000
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6103040
+Filename: geoview_0.1.11-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2472840
+SHA256sum: 6da6939a495d511d5ddfd1fabd468204e52c1f8e996dcd14b272a3441d0e4ae7
+Description:  geoview is a handy tool to extract useful information from geo* files.
+
+Package: hysteria
+Version: 2.6.4-r1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/apernet/hysteria
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18534400
+Filename: hysteria_2.6.4-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7069102
+SHA256sum: ae1cb43fe63f3537b4d46cd687dce122d8ed4b8e696242e85f504f3393618c40
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: luci-app-adguardhome
+Version: 25.289.40718~1d6a479
+Depends: libc, ca-certs, curl, wget-ssl, adguardhome, luci-lua-runtime
+Source: /home/runner/work/op-packages-collection/op-packages-collection/packages/luci-app-adguardhome
+SourceName: luci-app-adguardhome
+Section: luci
+SourceDateEpoch: 1760613518
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 317440
+Filename: luci-app-adguardhome_25.289.40718.1d6a479_all.ipk
+Size: 91810
+SHA256sum: da7967caf64f2e73dc6a146592f9ad83eb626c5a9c5513c7bf165fcff2dd6496
+Description:  LuCI support for AdGuardHome
+
+Package: luci-app-advanced-reboot
+Version: 1.1.1-r7
+Depends: libc, luci-base, jshn
+Source: /feed/luci/applications/luci-app-advanced-reboot
+SourceName: luci-app-advanced-reboot
+License: AGPL-3.0-or-later
+Section: luci
+SourceDateEpoch: 1760044611
+URL: https://github.com/stangri/luci-app-advanced-reboot/
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 71680
+Filename: luci-app-advanced-reboot-1.1.1-7_openwrt-24.10_all.ipk
+Size: 11899
+SHA256sum: 568c753686605d9e5e9eb5e4195de50a76312d2fcec4350f3b4d3d1270790d5d
+Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.ca/luci-app-advanced-reboot/
+
+Package: luci-app-cpu-status
+Version: 0.6.1-r1
+Depends: libc
+Source: /home/runner/work/op-packages-collection/op-packages-collection/packages/luci-app-cpu-status
+SourceName: luci-app-cpu-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1753877332
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-cpu-status_0.6.1-r1_all.ipk
+Size: 6533
+SHA256sum: cc61416be199888b41240b8afecdb34c6df46fb809fe15630feb4a0a3638634c
+Description:  CPU utilization info for the LuCI status page
+
+Package: luci-app-log-viewer
+Version: 1.5.0-r2
+Depends: libc, ucode, ucode-mod-fs
+Source: /home/runner/work/op-packages-collection/op-packages-collection/packages/luci-app-log
+SourceName: luci-app-log-viewer
+License: MIT
+Section: luci
+SourceDateEpoch: 1759869806
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 61440
+Filename: luci-app-log-viewer_1.5.0-r2_all.ipk
+Size: 10626
+SHA256sum: 2ebfe70fba6767d722163f3e198d7c8eb7e411b2abb2d2a1f5e10ad7644be79c
+Description:  Advanced syslog and kernel log (tail, search, etc)
+
+Package: luci-app-natmapt
+Version: 25.270.26685~76fa9fc
+Depends: libc, natmapt, coreutils-timeout
+Source: /home/runner/work/op-packages-collection/op-packages-collection/packages/luci-app-natmapt
+SourceName: luci-app-natmapt
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1758957885
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-natmapt_25.270.26685.76fa9fc_all.ipk
+Size: 8397
+SHA256sum: 098d12b1053db445d8f298f9d39b1c6ac710ff6de0f8bed4926ee1795a5143ce
+Description:  TCP/UDP port mapping for full cone NAT
+
+Package: luci-app-passwall2
+Version: 25.9.24-r1
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, geoview, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
+Source: feeds/passwall2/luci-app-passwall2
+SourceName: luci-app-passwall2
+Section: luci
+SourceDateEpoch: 1760679029
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1044480
+Filename: luci-app-passwall2_25.9.24-r1_all.ipk
+Size: 268209
+SHA256sum: 221663f1597550a1a9032063e0ab916c170c42277ef0e5bb026f46c13c2bafa5
+Description:  LuCI support for PassWall 2
+
+Package: luci-app-temp-status
+Version: 0.7.1-r2
+Depends: libc, ucode, ucode-mod-fs
+Source: /home/runner/work/op-packages-collection/op-packages-collection/packages/luci-app-temp-status
+SourceName: luci-app-temp-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1753296809
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-temp-status_0.7.1-r2_all.ipk
+Size: 8196
+SHA256sum: a57dde39b15cccae611f63dc038b037a9a9b5caaae8c7f8043e255649c80b159
+Description:  Temperature sensors data for the LuCI status page
+
+Package: luci-app-vlmcsd
+Version: 25.289.40750~87abbd6
+Depends: libc, vlmcsd
+Source: /home/runner/work/op-packages-collection/op-packages-collection/packages/luci-app-vlmcsd
+SourceName: luci-app-vlmcsd
+Section: luci
+SourceDateEpoch: 1760613550
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-vlmcsd_25.289.40750.87abbd6_all.ipk
+Size: 2356
+SHA256sum: eab546d53e45e6892550f4edade5670c917a07a0f4bf05595898330900a88122
+Description:  LuCI support for Vlmcsd KMS Server
+
+Package: luci-theme-argon
+Version: 2.4.3-r20250722
+Depends: libc, wget, jsonfilter
+Source: feeds/base/downloads/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1757604683
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 604160
+Filename: luci-theme-argon_2.4.3-r20250722_all.ipk
+Size: 399917
+SHA256sum: b358fb12ea0c1727b8e80ac28e761a2db6c5cdcfd97692ef4f0c07bc29cd356a
+Description:  Argon Theme
+
+Package: naiveproxy
+Version: 140.0.7339.123-r3
+Depends: libc, libatomic1
+Source: feeds/passwall_packages/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/klzgrad/naiveproxy
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5396480
+Filename: naiveproxy_140.0.7339.123-r3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3399326
+SHA256sum: e749ff739cdcfd041a8820d5b34bea2587fc10b45fd765c32bff67ed75a7b34f
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: natmapt-client-script-deluge
+Version: 0.2025.6.4
+Depends: libc, natmapt
+Provides: natmapt-client-scripts
+Source: feeds/base/natmapt
+SourceName: natmapt
+License: MIT
+LicenseFiles: License
+Section: net
+SourceDateEpoch: 1758768822
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>, Ray Wang <r@hev.cc>
+Architecture: all
+Installed-Size: 10240
+Filename: natmapt-client-script-deluge_0.2025.6.4_all.ipk
+Size: 1608
+SHA256sum: e0e2679d840e625d9ee645753a6019b4f97707d4eeb0d70d6e2e3c32835897cb
+Description:  NATMap client scripts (Deluge)
+
+Package: natmapt-client-script-transmission
+Version: 0.2025.6.4
+Depends: libc, natmapt
+Provides: natmapt-client-scripts
+Source: feeds/base/natmapt
+SourceName: natmapt
+License: MIT
+LicenseFiles: License
+Section: net
+SourceDateEpoch: 1758768822
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>, Ray Wang <r@hev.cc>
+Architecture: all
+Installed-Size: 10240
+Filename: natmapt-client-script-transmission_0.2025.6.4_all.ipk
+Size: 1427
+SHA256sum: 1fdd948dd9cb7d784542658b7a6dd73cc73becc0d4931f00b4825d041599ee43
+Description:  NATMap client scripts (Transmission)
+
+Package: natmapt-notify-script-pushbullet
+Version: 0.2025.6.4
+Depends: libc, natmapt
+Provides: natmapt-notify-scripts
+Source: feeds/base/natmapt
+SourceName: natmapt
+License: MIT
+LicenseFiles: License
+Section: net
+SourceDateEpoch: 1758768822
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>, Ray Wang <r@hev.cc>
+Architecture: all
+Installed-Size: 10240
+Filename: natmapt-notify-script-pushbullet_0.2025.6.4_all.ipk
+Size: 1418
+SHA256sum: 3d90169959ac0da91f6ef61db53aa7ba87ee5b36aac06c85156e5ea662635f36
+Description:  NATMap notify scripts (Pushbullet)
+
+Package: natmapt-notify-script-pushover
+Version: 0.2025.6.4
+Depends: libc, natmapt
+Provides: natmapt-notify-scripts
+Source: feeds/base/natmapt
+SourceName: natmapt
+License: MIT
+LicenseFiles: License
+Section: net
+SourceDateEpoch: 1758768822
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>, Ray Wang <r@hev.cc>
+Architecture: all
+Installed-Size: 10240
+Filename: natmapt-notify-script-pushover_0.2025.6.4_all.ipk
+Size: 1436
+SHA256sum: ee162deeb7ec8e9e02cc160176a29be50976d68d596c022b3b7bb18fe7e478a2
+Description:  NATMap notify scripts (Pushover)
+
+Package: natmapt-notify-script-telegram
+Version: 0.2025.6.4
+Depends: libc, natmapt
+Provides: natmapt-notify-scripts
+Source: feeds/base/natmapt
+SourceName: natmapt
+License: MIT
+LicenseFiles: License
+Section: net
+SourceDateEpoch: 1758768822
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>, Ray Wang <r@hev.cc>
+Architecture: all
+Installed-Size: 10240
+Filename: natmapt-notify-script-telegram_0.2025.6.4_all.ipk
+Size: 1549
+SHA256sum: 0fda7070ef032e23054640ea28612e401fb00f187c2c70e9263db61891bdcca4
+Description:  NATMap notify scripts (Telegram)
+
+Package: natmapt
+Version: 20250924-r2
+Depends: libc, curl, jsonfilter, bash
+Source: feeds/base/natmapt
+SourceName: natmapt
+License: MIT
+LicenseFiles: License
+Section: net
+SourceDateEpoch: 1758768822
+URL: https://github.com/heiher/natmap
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>, Ray Wang <r@hev.cc>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 81920
+Filename: natmapt_20250924-r2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26844
+SHA256sum: f6a60eb989e8959ae699c5eecd533d0bb4bab928e3a7441b90ffee85fa742014
+Description:  TCP/UDP port mapping tool for full cone NAT
+
+Package: shadowsocks-rust-sslocal
+Version: 1.23.5-r1
+Depends: libc
+Source: feeds/passwall_packages/shadowsocks-rust
+SourceName: shadowsocks-rust
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/shadowsocks/shadowsocks-rust
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7311360
+Filename: shadowsocks-rust-sslocal_1.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3322802
+SHA256sum: 65d0b141207aff02eac14f1d5813587d5c0d56d67dac65f56f12ba26a41f907d
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssserver
+Version: 1.23.5-r1
+Depends: libc
+Source: feeds/passwall_packages/shadowsocks-rust
+SourceName: shadowsocks-rust
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/shadowsocks/shadowsocks-rust
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5775360
+Filename: shadowsocks-rust-ssserver_1.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2600092
+SHA256sum: 372cd15e35ed8bb0d4cc22c3a9a3b775feb135c3d8dece233a2a28fd2c41e3eb
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 133120
+Filename: shadowsocksr-libev-ssr-local_2.5.6-r11_arm_cortex-a7_neon-vfpv4.ipk
+Size: 60302
+SHA256sum: 9fe5078177852985af7892a793dd60cf091059bac4d39bc3c89fc9100ebe101c
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 122880
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-r11_arm_cortex-a7_neon-vfpv4.ipk
+Size: 54556
+SHA256sum: 858023f71fab4ff3bc6f58691647078dd0e1f48e03bf26727e7da6bedd4acdc2
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 143360
+Filename: shadowsocksr-libev-ssr-server_2.5.6-r11_arm_cortex-a7_neon-vfpv4.ipk
+Size: 63956
+SHA256sum: bda64ac9fbc69e8c7c7bda7046d4469f1d08f313458156e9aeb5ed28a757ccc3
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-client
+Version: 0.0.5-r3
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Source: feeds/passwall_packages/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/shadowsocks/simple-obfs
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 61440
+Filename: simple-obfs-client_0.0.5-r3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 28087
+SHA256sum: 5974aea9d52979510d67a3a18950598305098e85fe6e08fc246d0955205d0390
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: sing-box
+Version: 1.12.10-r1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
+Source: feeds/passwall_packages/sing-box
+SourceName: sing-box
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Require-User: sing-box=5566:sing-box=5566
+SourceDateEpoch: 1760616425
+URL: https://sing-box.sagernet.org/
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41175040
+Filename: sing-box_1.12.10-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15326710
+SHA256sum: 491942d840a69783c3a6654833eebd15c015ac30a0648a4062a04e1d613ff719
+Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
+ ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
+
+Package: stuntman-client
+Version: 1.2.17~cc5b875b-r20240806
+Depends: libc, libpthread, libstdcpp6, libopenssl3
+Source: feeds/base/stuntman
+SourceName: stuntman
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1740900253
+URL: https://github.com/jselbie/stunserver
+Maintainer: Anya Lin <hukk1996@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 81920
+Filename: stuntman-client_1.2.17.cc5b875b-r20240806_arm_cortex-a7_neon-vfpv4.ipk
+Size: 32946
+SHA256sum: f223cf122f2746cbcd3572f9a3d767d793191f4777e657d8deb3ee32aef429cf
+Description:  An open source STUN server and client code by john selbie. Compliant with the latest RFCs including 5389, 5769, and 5780. Also includes backwards compatibility for RFC 3489.
+
+Package: tcping
+Version: 0.3-r1
+Depends: libc
+Source: feeds/passwall_packages/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/jlyo/tcping
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20480
+Filename: tcping_0.3-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4185
+SHA256sum: f0cb5a372c2f7f1dfe198001994044061655e617de48fed657d93da0d810c6da
+Description:  tcping measures the latency of a tcp-connection
+
+Package: tuic-client
+Version: 1.0.0-r1
+Depends: libc
+Source: feeds/passwall_packages/tuic-client
+SourceName: tuic-client
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/EAimTY/tuic/
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1802240
+Filename: tuic-client_1.0.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 943175
+SHA256sum: 0d47cba43ab77e5f9cce8042933b42f8d7ae5d8c791efc670c6f8a58819a0a37
+Description:  Delicately-TUICed 0-RTT proxy protocol
+
+Package: v2ray-plugin
+Version: 5.41.0-r1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://github.com/teddysun/v2ray-plugin
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15994880
+Filename: v2ray-plugin_5.41.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6052892
+SHA256sum: 1c34640c45d60f9bcebb41f7bc6e9492444d00aeb24339689f0b1ead1e83cc1d
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: vlmcsd
+Version: 2020.03.30~70e03572-r10
+Depends: libc, libpthread
+Source: feeds/base/vlmcsd
+SourceName: vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Require-User: vlmcsd:vlmcsd
+SourceDateEpoch: 1760616445
+URL: https://github.com/Wind4/vlmcsd
+Maintainer: fuyumi <280604399@qq.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 51200
+Filename: vlmcsd_2020.03.30.70e03572-r10_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25502
+SHA256sum: 7c8ee300f8bb157340aa9100a988b061129b43a96aac2e7f9ed30db03462d742
+Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD,
+ Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin)
+
+Package: xray-core
+Version: 25.10.15-r1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/xray-core
+SourceName: Xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760616425
+URL: https://xtls.github.io
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 28385280
+Filename: xray-core_25.10.15-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10472096
+SHA256sum: 8baeb5f957f8ec40a8c2f001ca53c56e7d06cdcf24e5671d491b778b3e8bb75b
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
